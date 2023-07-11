@@ -2,12 +2,12 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-family: Montserrat-Black, Inter-Bold, Helvetica, Arial, sans-serif;
 }
 
 body {
-  min-width: 1416;
-  margin: 0;
+  max-width: 1416;
+  margin: 0 auto;
 }
 
 h1,
@@ -75,4 +75,77 @@ img {
   color: #fff;
   font-size: 16px;
   background: #0e1734;
+}
+
+.first {
+  display: grid;
+  grid-template-columns: 1fr 180px 180px 180px;
+  padding: 80px 120px;
+}
+
+.site-activity {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first__title {
+  color: #192252;
+  font-family: Montserrat;
+  font-size: 48px;
+  letter-spacing: -0.48px;
+  margin-bottom: 24px;
+}
+
+.first__content {
+  max-width: 584px;
+  margin-bottom: 59px;
+  color: #848fac;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.first__function {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.first__button {
+  gap: 10px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  color: #fff;
+  font-size: 16px;
+  background: #0e1734;
+  margin-right: auto;
+}
+
+.block_meritt_thomas {
+  display: flex;
+}
+
+.first__meritt__thomas {
+  display: flex;
+  width: 180px;
+  height: 588px;
+  gap: 24px;
+}
+
+.first_part_of_the_house {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.second_part_of_the_house {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  margin-top: 80px;
+  align-self: start;
+}
+
+.third_part_of_the_house {
+  grid-column-start: 4;
+  grid-column-end: 5;
 }
