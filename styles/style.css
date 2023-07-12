@@ -271,6 +271,7 @@ img {
 
 .rectangle__title {
   display: grid;
+  margin-bottom: 37px;
   margin-left: 497px;
   color: #192252;
   font-family: Montserrat;
@@ -278,7 +279,6 @@ img {
   font-size: 36px;
   line-height: 150%;
   letter-spacing: -0.36px;
-  margin-bottom: 37px;
 }
 
 .rectangle__image__interiro {
@@ -288,12 +288,49 @@ img {
 }
 
 .rectangle__image_1 {
+  display: flex;
   width: 1090px;
   height: 585px;
-  display: flex;
 }
 
 .rectangle__image_2-3-4 {
   width: 344px;
   height: 195.211px;
+}
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.reservation__title {
+  color: #192252;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -0.36px;
+  text-align: center;
+}
+
+.reservation__content {
+  color: #848fac;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.reservation__button {
+  gap: 10px;
+  margin: auto;
+  border-radius: 4px;
+  padding: 16px 32px;
+  color: #fff;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  background: #0e1734;
 }
