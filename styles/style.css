@@ -89,11 +89,12 @@ img {
 }
 
 .first__title {
+  margin-bottom: 24px;
   color: #192252;
   font-family: Montserrat;
+  font-weight: 600;
   font-size: 48px;
   letter-spacing: -0.48px;
-  margin-bottom: 24px;
 }
 
 .first__content {
@@ -113,12 +114,12 @@ img {
 
 .first__button {
   gap: 10px;
+  margin-right: auto;
   border-radius: 4px;
   padding: 16px 32px;
   color: #fff;
   font-size: 16px;
   background: #0e1734;
-  margin-right: auto;
 }
 
 .block_meritt_thomas {
@@ -127,9 +128,9 @@ img {
 
 .first__meritt__thomas {
   display: flex;
+  gap: 24px;
   width: 180px;
   height: 588px;
-  gap: 24px;
 }
 
 .first_part_of_the_house {
@@ -140,8 +141,8 @@ img {
 .second_part_of_the_house {
   grid-column-start: 3;
   grid-column-end: 4;
-  margin-top: 80px;
   align-self: start;
+  margin-top: 80px;
 }
 
 .third_part_of_the_house {
@@ -167,38 +168,39 @@ img {
 
 .about__us__block {
   display: grid;
-  align-items: center;
   grid-template-rows: repeat(3, 1fr);
+  align-items: center;
 }
 
 .about__us__title {
-  font-family: Montserrat;
   color: #192252;
+  font-family: Montserrat;
+  font-weight: 600;
   font-size: 36px;
   line-height: 150%;
   letter-spacing: -0.36px;
 }
 
 .about__us__content {
-  color: #848fac;
   max-width: 584px;
+  color: #848fac;
   font-family: Inter;
   font-size: 18px;
   line-height: 150%;
 }
 
 .about__us__button {
-  border-radius: 4px;
-  background: #0e1734;
-  color: #fff;
-  font-family: Inter;
-  font-size: 16px;
   display: inline-flex;
-  padding: 16px 32px;
   justify-content: center;
   align-items: center;
   gap: 10px;
   margin-right: auto;
+  border-radius: 4px;
+  padding: 16px 32px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  background: #0e1734;
 }
 
 .benifit {
@@ -206,9 +208,9 @@ img {
   flex-direction: column;
   gap: 32px;
   padding-top: 80px;
+  padding-right: 226px;
   padding-bottom: 80px;
   padding-left: 120px;
-  padding-right: 226px;
 }
 
 .benifit__block_1 {
@@ -218,13 +220,14 @@ img {
 
 .benifit__block_interior_1 {
   display: grid;
-  align-self: center;
   gap: 24px;
+  align-self: center;
 }
 
 .benifit__title {
   color: #192252;
   font-family: Montserrat;
+  font-weight: 600;
   font-size: 36px;
   line-height: 150%;
   letter-spacing: -0.36px;
@@ -234,8 +237,8 @@ img {
   margin-right: 126px;
   color: #848fac;
   font-family: Inter;
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
   line-height: 150%;
 }
 
@@ -247,13 +250,50 @@ img {
 
 .benifit__block_2 {
   display: flex;
+  align-items: center;
+  margin-bottom: 159px;
 }
 
 .benifit__content_interior {
-  margin-left: 126px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 24px;
-  align-items: center;
+  margin-left: 126px;
+  /* align-items: center; */
+}
+
+.rectangle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.rectangle__title {
+  display: grid;
+  margin-left: 497px;
+  color: #192252;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -0.36px;
+  margin-bottom: 37px;
+}
+
+.rectangle__image__interiro {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.rectangle__image_1 {
+  width: 1090px;
+  height: 585px;
+  display: flex;
+}
+
+.rectangle__image_2-3-4 {
+  width: 344px;
+  height: 195.211px;
 }
