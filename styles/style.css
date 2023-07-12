@@ -109,7 +109,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: left;
 }
 
 .first__button {
@@ -148,4 +147,58 @@ img {
 .third_part_of_the_house {
   grid-column-start: 4;
   grid-column-end: 5;
+}
+
+.about__us {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 80px 120px;
+}
+
+.about__us__img {
+  width: 384px;
+  height: 576px;
+  margin-right: 126px;
+}
+ .about__us__position {
+  grid-column-start: 2;
+  grid-column-end: 3;
+ }
+
+.about__us__block {
+  display: grid;
+  align-items: center;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.about__us__title {
+  font-family: Montserrat;
+  color: #192252;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -0.36px;
+}
+
+.about__us__content {
+  color: #848fac;
+  max-width: 584px;;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.about__us__button {
+  border-radius: 4px;
+  background: #0e1734;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: auto;
 }
