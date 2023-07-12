@@ -169,8 +169,6 @@ img {
   display: grid;
   align-items: center;
   grid-template-rows: repeat(3, 1fr);
-  grid-column-start: 2;
-  grid-column-end: 3;
 }
 
 .about__us__title {
@@ -204,6 +202,9 @@ img {
 }
 
 .benifit {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   padding-top: 80px;
   padding-bottom: 80px;
   padding-left: 120px;
@@ -211,8 +212,14 @@ img {
 }
 
 .benifit__block_1 {
-display: flex;
+  display: flex;
+  justify-content: end;
+}
 
+.benifit__block_interior_1 {
+  display: grid;
+  align-self: center;
+  gap: 24px;
 }
 
 .benifit__title {
@@ -225,7 +232,6 @@ display: flex;
 
 .benifit__content {
   margin-right: 126px;
-  max-width: 584px;
   color: #848fac;
   font-family: Inter;
   font-size: 18px;
@@ -234,9 +240,20 @@ display: flex;
 }
 
 .benifit__img {
-  grid-column-start: 2;
-  grid-column-end: 3;
   width: 384px;
   height: 384px;
   border-radius: 4px;
+}
+
+.benifit__block_2 {
+  display: flex;
+}
+
+.benifit__content_interior {
+  margin-left: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
 }
