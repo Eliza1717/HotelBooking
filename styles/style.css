@@ -160,10 +160,10 @@ img {
   height: 576px;
   margin-right: 126px;
 }
- .about__us__position {
+.about__us__position {
   grid-column-start: 2;
   grid-column-end: 3;
- }
+}
 
 .about__us__block {
   display: grid;
@@ -183,7 +183,7 @@ img {
 
 .about__us__content {
   color: #848fac;
-  max-width: 584px;;
+  max-width: 584px;
   font-family: Inter;
   font-size: 18px;
   line-height: 150%;
@@ -201,4 +201,42 @@ img {
   align-items: center;
   gap: 10px;
   margin-right: auto;
+}
+
+.benifit {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 120px;
+  padding-right: 226px;
+}
+
+.benifit__block_1 {
+display: flex;
+
+}
+
+.benifit__title {
+  color: #192252;
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -0.36px;
+}
+
+.benifit__content {
+  margin-right: 126px;
+  max-width: 584px;
+  color: #848fac;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.benifit__img {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 384px;
+  height: 384px;
+  border-radius: 4px;
 }
