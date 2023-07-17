@@ -335,3 +335,52 @@ img {
   background: #0e1734;
   margin-bottom: 88px;
 }
+
+.reservation__block__house{
+  display: grid;
+  grid-template-columns: repeat(3, 384px);
+  justify-content: space-evenly;
+}
+
+.reservation__image__house {
+  width: 384px;
+  min-height: 489px;
+  border-radius: 4px;
+}
+
+.reservation__title__house {
+  color: #000;
+  text-align: center;
+  margin-top: 32px ;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.reservation__content__house {
+  color: #848fac;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  display: flex;
+}
+
+.reservation__button__house {
+  color: #424f7b;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.reservation__arrow {
+  width: 20px;
+  height: 20px;
+}
+
+.house__position {
+  display: grid;
+}
