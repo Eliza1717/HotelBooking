@@ -336,7 +336,7 @@ img {
   background: #0e1734;
 }
 
-.reservation__block__house{
+.reservation__block__house {
   display: grid;
   grid-template-columns: repeat(3, 384px);
   justify-content: center;
@@ -352,7 +352,7 @@ img {
 .reservation__title__house {
   display: flex;
   margin-bottom: 16px;
-  margin-top: 32px ;
+  margin-top: 32px;
   color: #000;
   font-family: Montserrat;
   font-weight: 600;
@@ -378,8 +378,6 @@ img {
   font-size: 18px;
   line-height: 150%;
   text-decoration: none;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .reservation__arrow {
@@ -387,6 +385,55 @@ img {
   height: 20px;
 }
 
-.house__position {
+.photo__block {
   display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 324px;
+  margin-right: 323px;
+}
+
+.photo__block-title {
+  color: #192252;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 54px */
+  letter-spacing: -0.36px;
+}
+
+.photo__img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 44px;
+}
+
+.photo__block-content {
+  color: #848fac;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.name__title {
+  color: #192252;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+}
+
+.img__points {
+  width: 72px;
+  height: 12px;
 }
